@@ -1,0 +1,145 @@
+/*font-family: 'Gentium Book Basic', serif;
+font-family: 'Andada', serif;
+*/	
+
+#contenidos{ 
+
+	width: 1000px;
+	color: #660000;
+	text-shadow:0  0 5px #FFA500;     
+	height: auto;
+	margin: auto;
+	position: relative;	
+
+	
+
+}
+
+body{
+	background-image: url(../img/fondo.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+
+
+
+
+
+h1{
+	font-family: 'Andada', serif;text-shadow:0 0 5px #e6b319;
+	margin-left: 10px;
+	font-size: 30px;
+	text-align: center;
+}
+
+h2{
+	font-family: 'Gentium Book Basic', serif;
+	margin-left: 10px;
+	font-size: 20px;
+	text-align: left;
+}
+
+h3{
+	font-family: 'Gentium Book Basic', serif;text-shadow:0 0 5px#314581;
+	color: white;
+	font-size: :15px;
+	text-align: center;
+}
+
+
+
+header { 
+	
+width: 1000px;
+height: 120px;
+background: rgba(255,255,255,5,5);
+}
+
+ nav{
+ color: white;
+width: 1000px;
+height: 30px;     
+background:#314581;
+border-radius:  10px;
+box-shadow: 0 0 20px #FF4500 inset
+ }
+ ul{
+padding: 4px; 
+}
+
+li{
+
+float:left;
+list-style-type: none;
+padding: 7px;
+background:	#FFA500;
+margin: 3px;
+border-radius:  15px;
+box-shadow: 0 0 15px #FF4500 inset;
+}
+   
+
+section{
+width: 720px;	
+background: #F5F5F5;
+height: 600px;
+float: left;
+border-radius:  10px;
+
+}
+
+aside{
+width: 250px;
+background: white;
+height: 600px;
+float: left;
+margin-left: 20px;
+border-radius:  10px;
+box-shadow: 0 0 20px #314581 inset
+}
+ 
+ 
+ footer{
+
+ 	width: 1000px;
+ 	height: 50px;
+ 	background: #314581;
+ 	float: left;
+ 	margin-top: 20px;
+ 	border-radius:  10px;
+ 	margin-bottom: 10px;
+ 	box-shadow: 0 0 20px #FF4500 inset
+
+ }
+
+p{
+
+	font-size: 20px;
+	font-weight: bolder;
+	line-height: 25px;
+	padding: 15px;
+	text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+   /* calses*/
+
+   .ancho_menu_home{width: 900px;}
+   .ancho_menu_paginas{width: 970px;}
+
+   .menu:link{color:white;text-decoration: none;}
+   .menu.visited{color:white;text-decoration: none;}
+   .menu:hover{color:white;text-decoration: none;text-shadow:0 0 15px white;}
+   .menu:active{color:white;text-decoration: none;}
+
+
+
